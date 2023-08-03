@@ -1,0 +1,44 @@
+#input-editor {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #acacac;
+    margin-bottom: 5px;
+}
+
+.pane-container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.left-pane {
+    padding-right: 12px;
+}
+
+#input-select-button-group {
+    columns: 2;
+    border-right: 1px solid #acacac;
+}
+
+#input-select-button-group button {
+    min-width: 100px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#input-select-button-group button .button-text {
+    display: inline-block;
+    margin-left: 10px;
+    width: 75px;
+}
+
+
+.right-pane {
+    padding-left: 12px;
+}
+
+#form-preview, .custom-form  {
+
+}
