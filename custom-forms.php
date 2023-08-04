@@ -64,11 +64,12 @@
  */
  function enqueue_admin() {
      wp_enqueue_style('custom-forms_style', plugin_dir_url(__FILE__) . '/assets/css/admin.css');
+     wp_enqueue_style('custom-forms_style', plugin_dir_url(__FILE__) . '/assets/css/main.css');
  }
  add_action('admin_enqueue_scripts', 'enqueue_admin');
 
 /**
- * Enaqueue stylesheets and scripts to front end
+ * Enqueue stylesheets and scripts to front end
  */
  function enqueue() {
      wp_enqueue_style('custom-forms_style', plugin_dir_url(__FILE__) . '/assets/css/main.css');
@@ -99,4 +100,5 @@
  // //Uninstall and wipe related data
  // require_once plugin_dir_path(__FILE__) . 'includes/uninstall.php';
  // register_uninstall_hook(__FILE__, 'uninstall');
+
 ?>
